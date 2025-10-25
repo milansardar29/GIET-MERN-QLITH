@@ -43,7 +43,8 @@ background-color: rgb(0, 149, 255);
  }
  ul{
     background-color: aqua;
-    list-style-type: inside;
+    margin-left: 100px;
+    
  }
  ul li:first-child{
     background-color: chartreuse;

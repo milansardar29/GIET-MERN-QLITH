@@ -1,0 +1,76 @@
+p[id="paragraph"]{
+    background-color: brown;
+}
+
+p{
+    width: 500px;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::first-letter{
+background-color: burlywood;
+}
+p::selection{
+    background-color: black;
+}
+p::after{
+    content: "kya kar rahe ho ";
+}
+p::before{
+    content: "kya kar rahe ho ";
+}
+
+div{
+    width: 200px;
+    background-color: red;
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px; */
+/* padding: 20px 30px 40px 20px; */
+/* margin-top: 20px;
+margin-right: 30px;
+margin-bottom: 30px;
+margin-left: 50px; */
+/* margin: 20px 30px 30px 50px; */
+
+height: 300px;
+width: 500px;
+border: 2px solid black;
+background-image: url("https://tse1.mm.bing.net/th/id/OIP.2ZHBHI0ihbLl2eTJBluEOQHaEo?pid=Api&P=0&h=220");
+background-position: center;
+background-size: cover;
+}
+
+#block{
+    background-color: aqua;
+    display: inline;
+}
+span{
+    display:block;
+    background-color: aqua;
+    width: 300px;
+}
+h1{
+    background-color: chartreuse;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.flex{
+    /* display: flex; */
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    /* flex-direction: column;
+    gap: 30px; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows:  100px 100px 100px;
+           
+}
+.flex .box{
+    width: 100px;
+    height: 100px;
+
+}
